@@ -1,0 +1,29 @@
+#animeh{
+    display: none;
+}
+@media (max-width:900px){
+    #prohead{
+        width:90vw;
+    }
+}
+@media (max-width:750px){
+    #prohead{
+        width:100vw;
+        padding:0px 10px;
+    }
+}
+@media (max-width:540px){
+    #hello{
+        display: none;
+    }
+    #usdata{
+        width:100%;
+    }
+    #prohead{
+        padding:10px;
+
+    }
+    #animeh{
+      display: flex;
+    }
+}

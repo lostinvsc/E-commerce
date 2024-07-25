@@ -1,0 +1,113 @@
+form {
+    font-family: 'Poppins';
+    font-weight: 400;
+    background-color: white;
+    margin: 10px auto ;
+    width:  600px ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 0 40px 50px;
+    flex-grow: 1;
+    
+    
+}
+
+.fill {
+    padding: 5px 10px;
+    background-color: rgb(245, 245, 245);
+    height: fit-content;
+    width: fit-content;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+
+}
+
+input {
+    height: fit-content;
+    width: fit-content;
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#category {
+    outline: none;
+    padding: 10px 0px 10px 12px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid rgb(120, 120, 120);
+    width: fit-content;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('../Admin_Assets/arrow_icon.svg');
+    background-repeat: no-repeat;
+    background-position: 60px;
+    background-size: 10px;
+    width: 80px;
+}
+
+#tag1,#tag2{
+    outline: none;
+    padding: 10px 0px 10px 12px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid rgb(120, 120, 120);
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('../Admin_Assets/arrow_icon.svg');
+    background-repeat: no-repeat;
+    background-position: 147px;
+    background-size: 10px;
+    width: 170px;
+}
+
+#category option,#tag option {
+    padding: 10px;
+}
+
+#name {
+    outline: none;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid rgb(120, 120, 120);
+}
+
+#oldprice,
+#newprice {
+    outline: none;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid rgb(120, 120, 120);
+    width: 50px;
+}
+
+#add ,#cancel {
+    background-color: rgb(201, 248, 255);
+    padding: 10px 30px;
+    border: 1px solid rgb(120, 120, 120);
+    border-radius: 5px;
+}
+
+#prodimage {
+    width: 130px;
+    border-radius: 4px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+
+}

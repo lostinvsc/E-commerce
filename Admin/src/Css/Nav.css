@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+padding:20px 100px;
+    width: 100vw;
+    background-color: white;
+  justify-content:space-between;
+    align-items: center;
+
+}
+
+.navlink {
+    text-decoration: none;
+    color: black;
+   
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+    padding: 5px 15px;
+    height: 45px;
+
+    font-family: "Poppins";
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+#orderimg {
+    height: 30px;
+
+}

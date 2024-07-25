@@ -1,0 +1,68 @@
+.show{
+    display:none;
+}
+#dropmenu{
+    display:none;
+}
+
+@media (max-width:888px) {
+    #navbar{
+        padding: 0.5rem 10px;
+    }
+}
+
+@media (max-width:700px) {
+ 
+    .unshow{
+        display: none;
+    }
+    .show{
+        display: inline-block;
+  
+    }
+    #dropmenu{
+        display:inline-block;
+    }
+}
+@media (max-width:472px) {
+
+ #shopper{
+
+transform:scale(0.8) translateX(-20px);
+
+
+ }
+}
+@media (max-width:243px){
+    #shopper{
+
+        transform:scale(0.6) translateX(-60px);
+        /* border:1px solid black; */
+    }
+
+    .menubtn{
+        transform: scale(0.7) translateX(-20px);
+
+    }
+    #navbar{
+        flex-wrap:wrap;
+    }
+
+    
+}
+
+#dropmenu{
+    animation: rtol 0.3s ease-in-out;
+
+}
+
+@keyframes rtol {
+    from{
+        right:-100%;
+ 
+    }
+    to{
+        right:00%;
+ 
+    }
+}

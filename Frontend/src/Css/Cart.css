@@ -1,0 +1,171 @@
+#chead {
+    width: min(96vw, 1030px);
+    margin-top:3vw;
+}
+#prodetail2{
+    display: none;
+}
+
+#head {
+    gap: 150px;
+}
+
+@media (max-width:1030px) {
+    #chead {
+        width: 94vw;
+    }
+}
+
+
+
+@media (max-width:780px) {
+    #chead {
+        width: 98vw;
+    }
+    #headings{
+        font-size:1.4rem;
+    }
+#prodetail{
+    font-size: 1.2rem;
+    padding:6px 0px;
+}
+#remove{
+    padding-left:20px;
+
+}
+#prodimg{
+    width:90%;
+}
+}
+
+@media (max-width:510px) {
+#prodetail{
+    display:none;
+}
+#headings{
+    display:none;
+}
+#prodetail2{
+    display: flex;
+}
+
+
+}
+@media (max-width:340px) {
+#title{
+    font-size:13px;
+}
+#tp{
+    font-size:14px;
+}
+}
+@media (max-width:310px) {
+    #prodetail2{
+        flex-direction: column;
+        align-items: center;
+    }
+    #img{
+        width:min(100%,200px);
+        display:flex;
+        justify-content: center;
+    }
+    #div1{
+        width:min(92%,180px);
+        align-items: center;
+
+    }
+    #title{
+       width: 100%;
+       text-align: center;
+    }
+    #div2{
+        width:70%;
+        gap:0px;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:627px){
+#totalhead{
+    flex-direction: column;
+}
+#td1{
+    width:100%;
+}
+#td2{
+    width:100%;
+    margin:30px 0px;
+}
+#td2 div {
+width:100%;
+}
+}
+
+@media (max-width:284px){
+
+
+#td2 div {
+width:100%;
+font-size:1.3rem;
+}
+#td2 span {
+padding:5px ;
+}
+
+}
+@media (max-width:205px){
+
+
+#td2 div {
+flex-direction: column;
+border: 0px;
+align-items: center;
+}
+#td2 span {
+padding:7px ;
+margin-top: 5px;
+width:50px;
+}
+#td2 input {
+padding:7px ;
+width:100%;
+}
+
+}
+
+
+.hide{
+    display: none;
+    cursor:pointer;
+}
+
+#headings, #prodetail{
+    display: flex;
+}
+#occard{
+    display: none ;
+}
+
+@media (max-width:1050px){
+#cancel , #replace {
+    font-size:9px;
+    display: inline-block;
+}
+}
+@media (max-width:800px){
+#cancel , #replace {
+   display:none;
+}
+.hide{
+    display: inline-block;
+}
+}
+@media (max-width:525px){
+    #occard{
+        display: flex;
+    }
+    #headings, #prodetail{
+        display: none;
+    }
+}
+

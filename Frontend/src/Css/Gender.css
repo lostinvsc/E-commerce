@@ -1,0 +1,51 @@
+#ghead {
+    width: min(95vw,1030px);
+ 
+}
+
+
+@media (max-width:1030px) {
+    #ghead {
+        width: 90vw;
+    }
+    #banner{
+        width:100vw;
+    }
+
+}
+
+@media (max-width:800px) {
+    #ghead {
+        width: 99vw;
+    }
+
+    #gproducts {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+}
+
+
+@media (max-width:600px) {
+    #gproducts {
+        justify-content: center;
+        gap: 5vw;
+    }
+    #sort{
+        transform:scale(0.7);
+    }
+    #sresults{
+        padding-left:10px;
+        flex-wrap:wrap;
+    }
+}
+@media (max-width:400px) {
+    #gproducts {
+        margin-bottom: 50px;
+    }
+}
+
+
+

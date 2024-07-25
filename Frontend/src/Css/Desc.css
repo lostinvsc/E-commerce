@@ -1,0 +1,34 @@
+#dhead {
+    width: min(99vw, 1100px);
+}
+@media (max-width:793px) {
+    #dmain{
+padding:20px 30px;
+    }
+}
+@media (max-width:614px) {
+    #dmain{
+padding:20px 10px;
+text-align: justify;
+    }
+}
+@media (max-width:388px) {
+#dmain{
+    height:300px;
+    overflow:scroll;
+}
+}
+@media (max-width:288px) {
+#h1 ,#h2{
+    padding:5px 10px;
+    font-size: 14px;
+}
+}
+@media (max-width:206px) {
+#h1 ,#h2{
+font-size: 5vw;
+padding:2px 5px;
+
+}
+
+}

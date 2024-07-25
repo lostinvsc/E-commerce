@@ -1,0 +1,24 @@
+@media (max-width:1030px) {
+    #item{
+        width:20vw;
+        font-size:1.27vw;
+    }
+}
+@media (max-width:800px) {
+    #item{
+        width:37vw;
+        font-size:2vw;
+    }
+}
+@media (max-width:700px) {
+    #item{
+        width:36vw;
+        font-size:2.6vw;
+    }
+}
+@media (max-width:600px) {
+    #item{
+        width:41vw;
+        font-size:3.1vw;
+    }
+}

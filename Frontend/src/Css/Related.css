@@ -1,0 +1,67 @@
+#rhead {
+    width: min(96vw, 1030px);
+    margin: auto;
+    
+}
+
+#head {
+    gap: 150px;
+}
+#ritem{
+    flex-wrap:wrap;
+}
+
+@media (max-width:1030px) {
+    #rhead {
+        width: 90vw;
+    }
+
+    #rpheading {
+        font-size: 4vw;
+    }
+
+    #rpheading div {
+        width: 10vw;
+    }
+}
+
+@media (max-width:800px) {
+    #rhead {
+        width: 90vw;
+    }
+
+    #ritem {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    #rpheading div {
+        width: 15vw;
+    }
+}
+
+
+
+@media (max-width:600px) {
+  
+
+    #rhead {
+        width: 100vw;
+
+    }
+
+    #ritem {
+        justify-content: center;
+        gap: 5vw;
+    }
+
+
+}
+
+@media (max-width:500px) {
+
+    #rpheading {
+        font-size: 6vw;
+    }
+}
