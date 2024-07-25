@@ -11,7 +11,7 @@ const Product = require('./Model/Product.js')
 const Cart = require('./Model/Cart.js')
 const Order = require('./Model/Order.js')
 const Coupon = require('./Model/Coupon.js')
-
+require('dotenv').config();
 const port =process.env.PORT || 3000;
 const app = express();
 app.use(cors({
